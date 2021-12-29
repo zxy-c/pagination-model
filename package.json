@@ -1,0 +1,35 @@
+{
+  "name": "@zxy-cn/pagination-model",
+  "version": "0.0.1",
+  "description": "Pagination model of mvc framework",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "index.ts",
+  "scripts": {
+    "test": "mocha",
+    "build": "tsc",
+    "publish:release": "npm run build && npm publish --access public"
+  },
+  "keywords": [
+    "fetch",
+    "http",
+    "xhr"
+  ],
+  "author": "zxy",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^4.5.3"
+  },
+  "devDependencies": {
+    "@types/qs": "^6.9.7",
+    "@types/assert": "^1.5.6",
+    "@types/mocha": "latest",
+    "assert": "^2.0.0",
+    "mocha": "latest",
+    "ts-node": "^10.4.0"
+  },
+  "engines": {
+    "node": ">=10.0.0"
+  },
+  "private": false
+}
